@@ -1,0 +1,73 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.hero-video {
+    object-fit: cover;
+    max-height: 550px;
+    width: 100%;
+}
+
+.testo {
+    font-size: 45px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    max-width: 450px;
+}
+
+.numero {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #d9534f;
+    line-height: 1;
+}
+
+.etichetta {
+    display: block;
+    font-size: 1.1rem;
+    color: #d9534f;
+    margin-bottom: 8px;
+}
+
+.descrizione {
+    font-size: 0.75rem;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.bg-white .descrizione {
+    color: #666;
+}
+
+.bg-black .descrizione {
+    color: #aaa;
+}
+
+/* Responsive per schermi piccoli */
+@media (max-width: 768px) {
+    .testo {
+        font-size: 24px;
+    }
+    
+    .numero {
+        font-size: 1.5rem;
+    }
+    
+    .etichetta {
+        font-size: 0.95rem;
+    }
+}
